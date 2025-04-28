@@ -166,7 +166,7 @@ export default function About() {
               transition={{ delay: 0.6 }}
               className="mb-8 text-lg text-gray-300"
             >
-                When I'm not troubleshooting React components, I'm busy{" "}
+              When I am not troubleshooting React components, I am busy{" "}
               <span className="font-medium text-red-400">
               crafting full-stack applications
               </span>

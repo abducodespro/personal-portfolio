@@ -1,7 +1,7 @@
 'use client';
 import { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FiGithub, FiX, FiChevronLeft, FiChevronRight, FiCheck } from "react-icons/fi";
+import { FiGithub, FiX, FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

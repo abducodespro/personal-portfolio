@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react"; // Add useMemo import
 import { motion } from "framer-motion";
 import { FiMenu, FiX } from "react-icons/fi";
 
@@ -52,12 +52,16 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [currentSection, setCurrentSection] = useState("");
 
-  const navLinks = [
-    { name: "Home", href: "#home" },
-    { name: "Skills", href: "#skills" },
-    { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
-  ];
+  // Memoize navLinks to prevent re-creation on every render
+  const navLinks = useMemo(
+    () => [
+      { name: "Home", href: "#home" },
+      { name: "Skills", href: "#skills" },
+      { name: "Projects", href: "#projects" },
+      { name: "Contact", href: "#contact" },
+    ],
+    []
+  );
 
   const linkedinUrl = "https://www.linkedin.com/in/abducodespro/";
 
@@ -90,7 +94,7 @@ const Navbar = () => {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [navLinks]);
+  }, [navLinks]); // Dependency array now uses memoized navLinks
 
   return (
     <motion.nav

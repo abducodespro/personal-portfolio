@@ -1,6 +1,6 @@
 'use client'
 import { motion } from "framer-motion";
-import { FiCpu, FiCode, FiServer, FiWifi, FiType } from "react-icons/fi";
+import { FiCode, FiServer, FiType } from "react-icons/fi";
 import { FaReact, FaNodeJs, FaKeyboard, FaLightbulb, FaUser, FaComment } from "react-icons/fa";
 import { SiArduino, SiCplusplus, SiFirebase, SiMongodb, SiMysql } from "react-icons/si";
 import { DiJava } from "react-icons/di"; // Java icon from different package

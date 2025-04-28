@@ -6,8 +6,6 @@ import icon1 from '../assets/icon1.png'
 import icon2 from '../assets/icon2.png'
 import profilepic from '../assets/profilepic.png'
 import { Typewriter } from 'react-simple-typewriter'
-import hero from '../assets/hero-bg.jpg'
-import { div } from 'framer-motion/client'
 
 const Hero = () => {
     return (

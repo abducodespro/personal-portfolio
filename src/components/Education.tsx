@@ -1,7 +1,7 @@
 'use client'
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
-import { FiAward, FiBook, FiCode, FiCpu } from "react-icons/fi";
+import { FiAward, FiBook, FiCode } from "react-icons/fi";
 import { FaUniversity, FaSchool } from "react-icons/fa";
 import { GiGraduateCap } from "react-icons/gi";
 

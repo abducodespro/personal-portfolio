@@ -29,7 +29,7 @@ const Contact = () => {
                 "7LEcARTXz04dBYNKt" // Replace with your EmailJS user ID
             )
             .then(
-                (result) => {
+                () => {
                     setIsSent(true);
                     setName("");
                     setEmail("");
@@ -58,7 +58,7 @@ const Contact = () => {
                             animate={{ opacity: 1, y: 0 }}
                             className="mb-6 rounded-lg bg-green-500/10 p-4 text-center text-green-400"
                         >
-                            Message sent! I'll reply soon.
+                            Message sent! I will reply soon.
                         </motion.div>
                     )}
                     <motion.div

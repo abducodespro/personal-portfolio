@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { FiChevronLeft, FiChevronRight, FiCpu, FiMail } from "react-icons/fi";
-import { useState } from "react";
+import { FiCpu, FiMail } from "react-icons/fi";
 import DtuLogo from "../assets/dtulogo.jpg";
 import Image from "next/image";
 
@@ -49,12 +48,12 @@ export default function Testimonials() {
                   ))}
                 </div>
                 <p className="mb-6 text-lg italic text-gray-300">
-                "Abdulsomed Jibril is a passionate developer and a dedicated lifelong learner. With 
+                &#34;Abdulsomed Jibril is a passionate developer and a dedicated lifelong learner. With 
                 a strong commitment to building innovative solutions and sharing knowledge with 
                 others, he approaches every project with creativity, curiosity, and collaboration. 
                 Whether writing clean code, designing intuitive user interfaces, or helping others 
                 grow, he consistently strives to make a positive impact and contribute 
-                meaningfully to the tech community."
+                meaningfully to the tech community.&#34;
                 </p>
                 <div>
                   <h3 className="text-xl font-bold text-white">
