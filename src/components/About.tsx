@@ -11,6 +11,13 @@ export default function About() {
     const passions = [
         {
           icon: <FiGlobe className="text-3xl" />,
+          title: "ERP System Implementer",
+          description: "Full experiance in developing, customizing and implimenting ERPNEXT.",
+          color: "text-yellow-400",
+          bg: "bg-yellow-400/10",
+        },
+        {
+          icon: <FiGlobe className="text-3xl" />,
           title: "Full Stack Developer",
           description: "Building scalable web applications from front to back",
           color: "text-blue-400",
@@ -128,7 +135,7 @@ export default function About() {
             >
               Computer Science graduate with expertise in {" "}
               <span className="font-medium text-blue-400">
-              web development, MERN stack, and networking
+              ERP System Implementer, Web Development, MERN stack and Networking 
               </span>
               . Skilled in building dynamic applications and problem solving.
             </motion.p>

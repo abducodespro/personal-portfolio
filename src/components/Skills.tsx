@@ -26,6 +26,7 @@ export default function Skills() {
                     level: 80,
                 },
                 { name: "HTML/CSS", icon: <FiCode className="text-xl" />, level: 85 },
+                { name: "Frappe", icon: <FiCode className="text-xl" />, level: 90 },
             ],
         },
         {
@@ -45,6 +46,11 @@ export default function Skills() {
                     icon: <DiJava className="text-xl" />,
                     level: 90,
                 },
+                {
+                    name: "ERPNEXT",
+                    icon: <DiJava className="text-xl" />,
+                    level: 90,
+                },
             ],
         },
         {
@@ -53,6 +59,7 @@ export default function Skills() {
             skills: [
                 { name: "MongoDB", icon: <SiMongodb className="text-xl" />, level: 75 },
                 { name: "MySQL", icon: <SiMysql className="text-xl" />, level: 70 },
+                { name: "MariaDB", icon: <SiMysql className="text-xl" />, level: 70 },
                 { name: "Firebase", icon: <SiFirebase className="text-xl" />, level: 60 },
             ],
         },
@@ -61,7 +68,8 @@ export default function Skills() {
             title: "General Skills",
             icon: <FiType className="text-2xl text-blue-400" />,
             skills: [
-                { name: "Typing (75+ WPM)", icon: <FaKeyboard className="text-xl" />, level: 95 },
+                { name: "Project Leader", icon: <FaKeyboard className="text-xl" />, level: 95 },
+                { name: "ERP Trainer", icon: <FaLightbulb className="text-xl" />, level: 90 },
                 { name: "Problem Solving", icon: <FaLightbulb className="text-xl" />, level: 90 },
                 { name: "Team Collaboration", icon: <FaUser className="text-xl" />, level: 85 },
                 { name: "Technical Communication", icon: <FaComment className="text-xl" />, level: 88 },

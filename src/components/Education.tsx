@@ -36,12 +36,14 @@ export default function Education() {
     {
       icon: <FiCode />,
       name: "Programming",
-      items: ["HTML", "CSS", "Java", "C++", "JavaScript", "React","Next.js", "python"],
+      items: ["HTML", "CSS", "Java", "C++", "JavaScript", "React","Next.js", "python", "Frappe", "ERPNEXT"],
     },
     {
       icon: <FiBook />,
       name: "Theoretical",
       items: [
+        "ERP System Implementer", 
+        "ERP System Consultancy & Trainer", 
         "Embedded Systems",
         "Data Structures",
         "Machine Learning",

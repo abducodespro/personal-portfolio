@@ -45,9 +45,9 @@ const Hero = () => {
                 </motion.div>
 
                 <p className='text-center text-xl font-bold max-w-[500px] mx-auto mt-8 text-white/80'>
-                    I am a{' '}
+                    I am {' '}
                     <Typewriter
-                        words={['Full Stack Developer', 'React & Next.js Expert', 'Creative Coder', 'Talented Problem Solver']}
+                        words={['an ERP System Implementer','a Full Stack Developer', 'React & Next.js Expert', 'a Creative Coder', 'Talented Problem Solver']}
                         cursor
                         typeSpeed={70}
                         deleteSpeed={50}
@@ -57,7 +57,7 @@ const Hero = () => {
                 </p>
                 <div className='flex justify-center mt-8'>
                    <motion.a
-                    href="/cv.pdf"
+                    href="CV2.pdf"
                     download
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}

@@ -12,8 +12,49 @@ import bidding from "../assets/mern.jpg";
 import myapp from "../assets/nativeApp.png";
 import java from "../assets/java.png";
 import cplus from "../assets/cplus.jpg";
+import yen_logo from "../assets/yenpic.webp";
+import taf_hero from "../assets/taf_hero.webp";
 
 const projects = [
+    {
+        title: "Yencomad Construction PLC ERP System",
+        shortDesc:
+            "A comprehensive ERP system for Yencomad Construction PLC, built using Python, JavaScript, and the Frappe framework, designed to streamline business operations and enhance productivity.",
+        fullDesc:
+            "The ERP system for Yencomad Construction PLC is a robust and scalable solution developed using Python, JavaScript, and the Frappe framework. This all-in-one platform integrates various business functions such as project management, inventory control, financial accounting, human resources, and customer relationship management. The system features a user-friendly interface built with Jinja templating, allowing employees to easily navigate and manage their tasks. With real-time data synchronization and customizable modules, the ERP system helps Yencomad Construction PLC optimize workflows, improve decision-making, and drive overall efficiency across the organization.",
+        tags: [
+            "Python",
+            "Javascript",
+            "Frappe",
+            "ERPNext",
+            "All in one",
+            "Jinja Templating",
+        ],
+        image: yen_logo,
+        links: [{
+            icon: <FiGithub />,
+            url: "http://197.156.78.217/"
+        }],
+    },{
+        title: "TAF Energies PLC ERP System", 
+        shortDesc:
+            "A comprehensive ERP system for TAF Energies PLC, built using Python, JavaScript, and the Frappe framework, designed to streamline business operations and enhance productivity.",
+        fullDesc:
+            "The ERP system for TAF Energies PLC is a robust and scalable solution developed using Python, JavaScript, and the Frappe framework. This all-in-one platform integrates various business functions such as project management, inventory control, financial accounting, human resources, and customer relationship management. The system features a user-friendly interface built with Jinja templating, allowing employees to easily navigate and manage their tasks. With real-time data synchronization and customizable modules, the ERP system helps TAF Energies PLC optimize workflows, improve decision-making, and drive overall efficiency across the organization.",
+        tags: [
+            "Python",
+            "Javascript",
+            "Frappe",
+            "ERPNext",
+            "All in one",
+            "Jinja Templating",
+        ],
+        image: taf_hero,
+        links: [{
+            icon: <FiGithub />,
+            url: "http://197.156.127.69:8081/"
+        }],
+    },
     {
         title: "Online Bidding System",
         shortDesc: "A web application for online bidding, built using the MERN stack.",
@@ -105,6 +146,7 @@ const projects = [
             url: "https://github.com/abducodespro/Todo-app"
         }],
     },
+    
 ];
 
 export default function Projects() {
